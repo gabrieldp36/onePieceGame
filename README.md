@@ -7,8 +7,8 @@ Este proyecto fue desarrollado en c++, utilizando la librería SFML 2.5.
 El juego utiliza los siguientes comandos:
 
 ```
-D: avanzar hacía adelante.
-A: avanzar hacía atrás.
+D: avanzar hacia adelante.
+A: avanzar hacia atrás.
 W: saltar.
 Right: mover cámara a la izquierda.
 Left: mover cámara a la derecha.
