@@ -1,6 +1,6 @@
 # One Peace Game.
 
-Este proyecto fue desarrollado en c++, utilizando la librería SFML 2.5 y Code::Blocks 17.12.
+Este proyecto fue desarrollado en c++, utilizando la librería SFML 2.5 y el IDE Code::Blocks 17.12.
 
 ## Notas:
 
