@@ -1,0 +1,9 @@
+#ifndef ESTADOSJUEGO_H_INCLUDED
+#define ESTADOSJUEGO_H_INCLUDED
+
+enum EstadosJuego {
+    EJECUTANDO,
+    PAUSADO,
+};
+
+#endif // ESTADOSJUEGO_H_INCLUDED
