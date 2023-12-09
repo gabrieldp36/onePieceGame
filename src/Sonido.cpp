@@ -12,9 +12,11 @@ Sonido::Sonido() {
         this->sonidoMuerte2.setVolume(100);
         this->bufferFinalFx.loadFromFile("sonidos/sonidoFinal.ogg");
         this->sonidoFinalFx.setBuffer(this->bufferFinalFx);
+        this->sonidoFinalFx.setVolume(100);
         this->bufferMusicaFinal.loadFromFile("sonidos/musicaFinal.ogg");
         this->musicaFinal.setBuffer(this->bufferMusicaFinal);
         this->musicaFinal.setLoop(true);
+        this->musicaFinal.setVolume(65);
 }
 
  void Sonido::reproducirMusicaFondo() {
@@ -24,7 +26,7 @@ Sonido::Sonido() {
         this->musicaFondo = new sf::Sound;
         this->musicaFondo->setBuffer(*buffer);
         this->musicaFondo->setLoop(true);
-        this->musicaFondo->setVolume(90);
+        this->musicaFondo->setVolume(80);
         this->musicaFondo->play();
  }
 

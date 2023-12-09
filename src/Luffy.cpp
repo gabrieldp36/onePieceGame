@@ -6,6 +6,7 @@ Luffy::Luffy()
     sf::Texture * luffyTextura = new sf::Texture;
     luffyTextura->loadFromFile("sprites/personaje.png");
     this->spriteLuffy = new sf::Sprite(*luffyTextura);
+    this->spriteLuffy->setOrigin(this->spriteLuffy->getGlobalBounds().width/2,0);
     this->spriteLuffy->setPosition(180, 352);
     // Vidas iniciales de luffy-
     sf::Texture * luffyVidas2 = new sf::Texture;
@@ -103,11 +104,13 @@ void Luffy::cmd() {
         if( sf::Keyboard::isKeyPressed(sf::Keyboard::D) ) {
             if( this->spriteLuffy->getPosition().x <= 8500 )  {
                 this->spriteLuffy->move(this->velocityX,0);
+                this->spriteLuffy->setScale(1,1);
             }
         }
         if( sf::Keyboard::isKeyPressed(sf::Keyboard::A) ) {
             if( this->spriteLuffy->getPosition().x >= 30 ) {
                 this->spriteLuffy->move(this->velocityX*-1,0);
+                this->spriteLuffy->setScale(-1,1);
             }
         }
     }
@@ -119,12 +122,14 @@ void Luffy::update() {
         case CAMINANDO_ADELANTE:
             if( this->spriteLuffy->getPosition().x <= 8690 ) {
                 this->spriteLuffy->move(this->velocityX,0);
+                this->spriteLuffy->setScale(1,1);
             }
              this->estado = QUIETO;
         break;
         case CAMINANDO_ATRAS:
              if( this->spriteLuffy->getPosition().x >= 30 ) {
                     this->spriteLuffy->move(this->velocityX*-1,0);
+                    this->spriteLuffy->setScale(-1,1);
                 }
                 this->estado = QUIETO;
         break;

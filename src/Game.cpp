@@ -474,22 +474,22 @@ void Game::eventosCamara() {
         ) {
             if( this->luffy.obtenerPosicion().x > 300 ) {
                 this->corregirEjeX = true;
-                this->luffy.getSpriteVidaLuffy2()->move(this->luffy.getVelocityX()+0.8,0);
-                this->luffy.getSpriteVidaLuffy1()->move(this->luffy.getVelocityX()+0.8,0);
-                this->luffy.getSpMarcadorMonedas0()->move(this->luffy.getVelocityX()+0.8,0);
-                this->luffy.getSpMarcadorMonedas1()->move(this->luffy.getVelocityX()+0.8,0);
-                this->luffy.getSpMarcadorMonedas2()->move(this->luffy.getVelocityX()+0.8,0);
-                this->luffy.getSpMarcadorMonedas3()->move(this->luffy.getVelocityX()+0.8,0);
-                this->luffy.getSpMarcadorMonedas4()->move(this->luffy.getVelocityX()+0.8,0);
-                this->luffy.getSpMarcadorMonedas5()->move(this->luffy.getVelocityX()+0.8,0);
-                this->luffy.getSpMarcadorMonedas6()->move(this->luffy.getVelocityX()+0.8,0);
-                this->luffy.getSpMarcadorMonedas7()->move(this->luffy.getVelocityX()+0.8,0);
-                this->luffy.getSpMarcadorMonedas8()->move(this->luffy.getVelocityX()+0.8,0);
-                this->luffy.getSpMarcadorMonedas9()->move(this->luffy.getVelocityX()+0.8,0);
-                this->camara.moverCamara(this->luffy.getVelocityX()+0.8, this->ventana);
+                this->luffy.getSpriteVidaLuffy2()->move(this->luffy.getVelocityX()+0.7,0);
+                this->luffy.getSpriteVidaLuffy1()->move(this->luffy.getVelocityX()+0.7,0);
+                this->luffy.getSpMarcadorMonedas0()->move(this->luffy.getVelocityX()+0.7,0);
+                this->luffy.getSpMarcadorMonedas1()->move(this->luffy.getVelocityX()+0.7,0);
+                this->luffy.getSpMarcadorMonedas2()->move(this->luffy.getVelocityX()+0.7,0);
+                this->luffy.getSpMarcadorMonedas3()->move(this->luffy.getVelocityX()+0.7,0);
+                this->luffy.getSpMarcadorMonedas4()->move(this->luffy.getVelocityX()+0.7,0);
+                this->luffy.getSpMarcadorMonedas5()->move(this->luffy.getVelocityX()+0.7,0);
+                this->luffy.getSpMarcadorMonedas6()->move(this->luffy.getVelocityX()+0.7,0);
+                this->luffy.getSpMarcadorMonedas7()->move(this->luffy.getVelocityX()+0.7,0);
+                this->luffy.getSpMarcadorMonedas8()->move(this->luffy.getVelocityX()+0.7,0);
+                this->luffy.getSpMarcadorMonedas9()->move(this->luffy.getVelocityX()+0.7,0);
+                this->camara.moverCamara(this->luffy.getVelocityX()+0.7, this->ventana);
                 // Regulación movimiento voluntario.
                 if(this->camara.getMovimientoVoluntario() >= 5) {
-                    this->camara.setMovimientoVoluntario( (this->luffy.getVelocityX()+0.8)*-1);
+                    this->camara.setMovimientoVoluntario( (this->luffy.getVelocityX()+0.7)*-1);
                 }
              }
         } else {
@@ -528,19 +528,19 @@ void Game::eventosCamara() {
         ) {
             //Cunado se trasladó más de 300 pixeles hacemos que la cámara siga al personaje.
                 if( this->luffy.obtenerPosicion().x > 300 ) {
-                    this->luffy.getSpriteVidaLuffy2()->move( (this->luffy.getVelocityX()+0.8)*-1,0);
-                    this->luffy.getSpriteVidaLuffy1()->move( (this->luffy.getVelocityX()+0.8)*-1,0);
-                    this->luffy.getSpMarcadorMonedas0()->move( (this->luffy.getVelocityX()+0.8)*-1,0);
-                    this->luffy.getSpMarcadorMonedas1()->move( (this->luffy.getVelocityX()+0.8)*-1,0);
-                    this->luffy.getSpMarcadorMonedas2()->move( (this->luffy.getVelocityX()+0.8)*-1,0);
-                    this->luffy.getSpMarcadorMonedas3()->move( (this->luffy.getVelocityX()+0.8)*-1,0);
-                    this->luffy.getSpMarcadorMonedas4()->move( (this->luffy.getVelocityX()+0.8)*-1,0);
-                    this->luffy.getSpMarcadorMonedas5()->move( (this->luffy.getVelocityX()+0.8)*-1,0);
-                    this->luffy.getSpMarcadorMonedas6()->move( (this->luffy.getVelocityX()+0.8)*-1,0);
-                    this->luffy.getSpMarcadorMonedas7()->move( (this->luffy.getVelocityX()+0.8)*-1,0);
-                    this->luffy.getSpMarcadorMonedas8()->move( (this->luffy.getVelocityX()+0.8)*-1,0);
-                    this->luffy.getSpMarcadorMonedas9()->move( (this->luffy.getVelocityX()+0.8)*-1,0);
-                    this->camara.moverCamara((this->luffy.getVelocityX()+0.8)*-1, this->ventana);
+                    this->luffy.getSpriteVidaLuffy2()->move( (this->luffy.getVelocityX()+0.7)*-1,0);
+                    this->luffy.getSpriteVidaLuffy1()->move( (this->luffy.getVelocityX()+0.7)*-1,0);
+                    this->luffy.getSpMarcadorMonedas0()->move( (this->luffy.getVelocityX()+0.7)*-1,0);
+                    this->luffy.getSpMarcadorMonedas1()->move( (this->luffy.getVelocityX()+0.7)*-1,0);
+                    this->luffy.getSpMarcadorMonedas2()->move( (this->luffy.getVelocityX()+0.7)*-1,0);
+                    this->luffy.getSpMarcadorMonedas3()->move( (this->luffy.getVelocityX()+0.7)*-1,0);
+                    this->luffy.getSpMarcadorMonedas4()->move( (this->luffy.getVelocityX()+0.7)*-1,0);
+                    this->luffy.getSpMarcadorMonedas5()->move( (this->luffy.getVelocityX()+0.7)*-1,0);
+                    this->luffy.getSpMarcadorMonedas6()->move( (this->luffy.getVelocityX()+0.7)*-1,0);
+                    this->luffy.getSpMarcadorMonedas7()->move( (this->luffy.getVelocityX()+0.7)*-1,0);
+                    this->luffy.getSpMarcadorMonedas8()->move( (this->luffy.getVelocityX()+0.7)*-1,0);
+                    this->luffy.getSpMarcadorMonedas9()->move( (this->luffy.getVelocityX()+0.7)*-1,0);
+                    this->camara.moverCamara((this->luffy.getVelocityX()+0.7)*-1, this->ventana);
                  }
                   if( this->luffy.obtenerPosicion().x < 30 ) {
                         if(this->corregirEjeX) {

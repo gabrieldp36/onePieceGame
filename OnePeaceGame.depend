@@ -550,10 +550,10 @@
 1701965620 source:c:\users\gabri\desktop\onepeacegame\src\camara.cpp
 	"Camara.h"
 
-1702008290 source:c:\users\gabri\desktop\onepeacegame\src\game.cpp
+1702082030 source:c:\users\gabri\desktop\onepeacegame\src\game.cpp
 	"Game.h"
 
-1702008636 source:c:\users\gabri\desktop\onepeacegame\src\luffy.cpp
+1702082084 source:c:\users\gabri\desktop\onepeacegame\src\luffy.cpp
 	"Luffy.h"
 
 1701907723 source:c:\users\gabri\desktop\onepeacegame\src\obstaculo.cpp
@@ -562,7 +562,7 @@
 1701988861 source:c:\users\gabri\desktop\onepeacegame\src\pantalla.cpp
 	"Pantalla.h"
 
-1702008164 source:c:\users\gabri\desktop\onepeacegame\src\sonido.cpp
+1702082052 source:c:\users\gabri\desktop\onepeacegame\src\sonido.cpp
 	"Sonido.h"
 
 1701991056 c:\users\gabri\desktop\onepeacegame\include\estadosjuego.h
