@@ -15,18 +15,7 @@
 class Game
 {
     private:
-        // Banderas booleanas.
-        bool inicio = true;
-        bool perdio = false;
-        bool reinicio = false;
-        bool victoria = false;
-
-        // Estado juego.
-
-        EstadosJuego estadoJuego = EJECUTANDO;
-
-        /**Objetos**/
-        // Objeto ventana.
+        // Ventana.
         sf::RenderWindow * ventana;
         // Eventos
         sf::Event * evento;
@@ -79,25 +68,32 @@ class Game
         float incrementador = 0;
         float recorrido = 200;
         bool incrementar = true;
+        // Estado juego.
+        EstadosJuego estadoJuego = EJECUTANDO;
+        // Banderas booleanas.
+        bool inicio = true;
+        bool perdio = false;
+        bool reinicio = false;
+        bool victoria = false;
 
     public:
         Game(sf::Vector2i dimensiones, std::string titulo);
+        void update();
         void pantallaInicioGame();
         void pantallaDerrota();
         void pantallaFinal();
-        void reiniciarJuego();
-        void update();
         void eventosGame();
+        void eventosCamara();
         void eventosPersonaje();
         void verificarMuerte();
-        void eventosCamara();
-        void dibujar();
-        void configMarcadores();
-        void reposicionarMarcadores();
         void configEscenario();
         void movimientoPlataformas();
         void empujarLuffy(std::string direccion, int fuerza);
+        void configMarcadores();
+        void reposicionarMarcadores();
+        void dibujar();
         void checkCollision();
+        void reiniciarJuego();
 };
 
 #endif // GAME_H

@@ -33,6 +33,7 @@ class Sonido
         void pararMusicaFondo();
         void pausarMusicaFondo();
         void reanudarMusicaFondo();
+        int estadoMusicaFondo();
         void reproducirSonidoMoneda();
         void reproducirSonidoVidaExra();
         void reproducirSonidoMuerte1();
@@ -40,7 +41,6 @@ class Sonido
         void reproducirSonidoFinalFx();
         void reproducirMusicaFinal();
         void pararMusicaFinal();
-        int estadoMusicaFondo();
 };
 
 #endif // SONIDO_H

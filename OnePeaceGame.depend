@@ -517,7 +517,7 @@
 	<SFML/Audio/Export.hpp>
 	<string>
 
-1701991143 c:\users\gabri\desktop\onepeacegame\include\game.h
+1702175797 c:\users\gabri\desktop\onepeacegame\include\game.h
 	<iostream>
 	<SFML/Graphics.hpp>
 	"Sonido.h"
@@ -528,7 +528,7 @@
 	"EstadosJuego.h"
 	"EstadosLuffy.h"
 
-1702007920 c:\users\gabri\desktop\onepeacegame\include\sonido.h
+1702172620 c:\users\gabri\desktop\onepeacegame\include\sonido.h
 	<SFML/Audio.hpp>
 
 1701989528 c:\users\gabri\desktop\onepeacegame\include\camara.h
@@ -537,11 +537,11 @@
 1701988973 c:\users\gabri\desktop\onepeacegame\include\pantalla.h
 	<SFML/Graphics.hpp>
 
-1701907731 c:\users\gabri\desktop\onepeacegame\include\obstaculo.h
+1702166817 c:\users\gabri\desktop\onepeacegame\include\obstaculo.h
 	<iostream>
 	<SFML/Graphics.hpp>
 
-1701991188 c:\users\gabri\desktop\onepeacegame\include\luffy.h
+1702166229 c:\users\gabri\desktop\onepeacegame\include\luffy.h
 	<SFML/Graphics.hpp>
 	"EstadosLuffy.h"
 
@@ -550,7 +550,7 @@
 1701965620 source:c:\users\gabri\desktop\onepeacegame\src\camara.cpp
 	"Camara.h"
 
-1702082030 source:c:\users\gabri\desktop\onepeacegame\src\game.cpp
+1702082507 source:c:\users\gabri\desktop\onepeacegame\src\game.cpp
 	"Game.h"
 
 1702082084 source:c:\users\gabri\desktop\onepeacegame\src\luffy.cpp

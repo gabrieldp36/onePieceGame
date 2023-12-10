@@ -21,14 +21,16 @@ class Luffy
         sf::Sprite * marcadorMoneda8;
         sf::Sprite * marcadorMoneda9;
         EstadosPersonaje estado;
-        bool recogioVidaExtra ;
-        int vidas;
         int velocityX;
         int velocidadSalto;
+        bool recogioVidaExtra ;
+        int vidas;
         int monedas;
 
     public:
         Luffy();
+        void cmd();
+        void update();
         sf::Sprite * getSpriteLuffy() { return this->spriteLuffy; }
         sf::Sprite * getSpriteVidaLuffy2() { return this->spriteVidaLuffy2; }
         sf::Sprite * getSpriteVidaLuffy1() { return this->spriteVidaLuffy1; }
@@ -44,9 +46,9 @@ class Luffy
         sf::Sprite * getSpMarcadorMonedas9() { return this->marcadorMoneda9; }
         int getVelocityX() { return this->velocityX; }
         int getVidas() { return this->vidas; }
+        int setVida(int value) { this->vidas = value; }
         int restarVida();
         void sumarVida();
-        int setVida(int value) { this->vidas = value; }
         int getMonedas() { return this->monedas; }
         int setMonedas(int value) { this->monedas = value; }
         int sumarMonedas();
@@ -56,8 +58,6 @@ class Luffy
         EstadosPersonaje getEstado() { return this->estado; }
         const sf::Vector2f& obtenerPosicion();
         void quieto(float x, float y);
-        void cmd();
-        void update();
 };
 
 #endif // LUFFY_H

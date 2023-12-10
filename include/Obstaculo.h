@@ -13,8 +13,8 @@ class Obstaculo
     public:
         Obstaculo();
         sf::Sprite * getSpriteObstaculo() { return this->spriteObstaculo; }
-        const sf::Vector2f& obtenerPosicion();
         void configurar(std::string recurso, int posicionX, int posicionY);
+        const sf::Vector2f& obtenerPosicion();
         void setearPosicion(int posicionX, int posicionY);
 };
 
