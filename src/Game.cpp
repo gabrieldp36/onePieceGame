@@ -190,8 +190,8 @@ void Game::configEscenario() {
     // -----Obstáculo final-------.
     this->obstaculoFinal.configurar("sprites/plataformaFinal.png", 8400, 495);
     this->ventana->draw( *this->obstaculoFinal.getSpriteObstaculo() );
-    this->onePeace.configurar("sprites/onePeace.png", 8630,430);
-    this->ventana->draw( *this->onePeace.getSpriteObstaculo() );
+    this->onePiece.configurar("sprites/onePiece.png", 8630,430);
+    this->ventana->draw( *this->onePiece.getSpriteObstaculo() );
     this->arbol2.configurar("sprites/arbol2.png", 8590, 200);
     this->ventana->draw( *this->arbol2.getSpriteObstaculo() );
     // -----Monedas-----.
@@ -411,7 +411,7 @@ void Game::empujarLuffy(std::string direccion, int fuerza) {
         this->luffy.sumarVida();
     }
     // One peace;
-    if(this->luffy.getSpriteLuffy()->getGlobalBounds().intersects( this->onePeace.getSpriteObstaculo()->getGlobalBounds() ) ) {
+    if(this->luffy.getSpriteLuffy()->getGlobalBounds().intersects( this->onePiece.getSpriteObstaculo()->getGlobalBounds() ) ) {
         this->sonido.pararMusicaFondo();
         this->victoria = true;
         this->sonido.reproducirSonidoFinalFx();
@@ -777,7 +777,11 @@ void Game::pantallaFinal() {
     this->camara.getVistaPointer()->setCenter({500,300});
     this->ventana->setView(*this->camara.getVistaPointer());
     // Dibujamos los elementos que aparecen en pantalla.
-    this->ventana->draw( *this->pantalla.getSpriteFinal() );
+    if(this->luffy.getMonedas() == 9) {
+        this->ventana->draw( *this->pantalla.getSpriteFinaCompletol() );
+    } else {
+        this->ventana->draw( *this->pantalla.getSpriteFinalSimple() );
+    }
     // Mostramos lo dibujado en pantalla.
      this->ventana->display();
     //Gestionamos los eventos que pueden ocurrir mientras se muestra la pantalla.

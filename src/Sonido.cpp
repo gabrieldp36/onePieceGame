@@ -16,7 +16,7 @@ Sonido::Sonido() {
         this->bufferMusicaFinal.loadFromFile("sonidos/musicaFinal.ogg");
         this->musicaFinal.setBuffer(this->bufferMusicaFinal);
         this->musicaFinal.setLoop(true);
-        this->musicaFinal.setVolume(65);
+        this->musicaFinal.setVolume(70);
 }
 
  void Sonido::reproducirMusicaFondo() {

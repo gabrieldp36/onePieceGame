@@ -54,7 +54,7 @@ class Game
         Obstaculo obsIntermedio19;
         Obstaculo obsIntermedio20;
         Obstaculo obstaculoFinal;
-        Obstaculo onePeace;
+        Obstaculo onePiece;
         Obstaculo arbol2;
         Obstaculo moneda1;
         Obstaculo moneda2;

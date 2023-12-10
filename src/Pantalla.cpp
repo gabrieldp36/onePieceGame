@@ -20,11 +20,16 @@ Pantalla::Pantalla()
     this->spriteDerrota = new sf::Sprite(*pantallaDerrotaTextura);
     this->spriteDerrota->setPosition(0,0);
 
-    // Pantalla Final
-    sf::Texture * pantallaFinalTextura = new sf::Texture;
-    pantallaFinalTextura->loadFromFile("sprites/pantallaFinal.png");
-    this->spriteFinal = new sf::Sprite(*pantallaFinalTextura);
-    this->spriteFinal->setPosition(0,0);
+    // Pantalla Final Simple
+    sf::Texture * pantallaFinalSimpleTextura = new sf::Texture;
+    pantallaFinalSimpleTextura->loadFromFile("sprites/pantallaFinalSimple.png");
+    this->spriteFinalSimple = new sf::Sprite(*pantallaFinalSimpleTextura);
+    this->spriteFinalSimple->setPosition(0,0);
 
+    // Pantalla Final Completo
+    sf::Texture * pantallaFinalCompletoTextura = new sf::Texture;
+    pantallaFinalCompletoTextura->loadFromFile("sprites/pantallaFinalCompleto.png");
+    this->spriteFinalCompleto = new sf::Sprite(*pantallaFinalCompletoTextura);
+    this->spriteFinalCompleto->setPosition(0,0);
 }
 

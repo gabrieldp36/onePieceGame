@@ -1,6 +1,6 @@
 ![caratula](https://github.com/gabrieldp36/onePieceGame/assets/88417383/cd44e1e1-a6a6-4691-bd25-025e9152ac2c)
 
-# One Peace Game.
+# One Piece Game.
 
 Se trata de un juego de plataformas en el cual el personaje debe ir sorteando cada una de ellas hasta llegar al objetivo final, recolectar el One Piece.
 
