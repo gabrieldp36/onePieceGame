@@ -15,6 +15,8 @@
 class Game
 {
     private:
+        // Estado juego.
+        EstadosJuego estadoJuego = EJECUTANDO;
         // Ventana.
         sf::RenderWindow * ventana;
         // Eventos
@@ -68,14 +70,11 @@ class Game
         float incrementador = 0;
         float recorrido = 200;
         bool incrementar = true;
-        // Estado juego.
-        EstadosJuego estadoJuego = EJECUTANDO;
         // Banderas booleanas.
         bool inicio = true;
         bool perdio = false;
         bool reinicio = false;
         bool victoria = false;
-
     public:
         Game(sf::Vector2i dimensiones, std::string titulo);
         void update();
