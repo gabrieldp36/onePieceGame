@@ -16,6 +16,14 @@ En caso de haber perdido o haber completado el juego, puede reiniciarse la parti
 
 Este proyecto fue desarrollado en c++, utilizando la librería SFML 2.5 y el IDE Code::Blocks 17.12.
 
+Para probar el juego pueden descargar el mismo accediendo al siguiente link:
+
+```
+https://drive.google.com/file/d/1md1GsorG0QAsR8B-1BFivTUkcq270ebc/view?usp=sharing
+```
+
+Únicamente deben descomprimir el archivo .zip, acceder a la carpeta "juego" y hacer doble click sobre el acceso directo "One Piece Game".
+
 ## Notas:
 
 El juego utiliza los siguientes comandos:
