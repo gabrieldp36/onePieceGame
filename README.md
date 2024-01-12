@@ -19,10 +19,10 @@ Este proyecto fue desarrollado en c++, utilizando la librería SFML 2.5 y el IDE
 Para probar el juego pueden descargar el mismo accediendo al siguiente link:
 
 ```
-https://drive.google.com/file/d/1md1GsorG0QAsR8B-1BFivTUkcq270ebc/view?usp=sharing
+https://drive.google.com/file/d/1lxMT8skDhKaTisIauFsK_ve5STdZnwnn/view?usp=sharing
 ```
 
-Únicamente deben descomprimir el archivo .zip, acceder a la carpeta "juego" y hacer doble click sobre el acceso directo "One Piece Game".
+Únicamente deben descomprimir el archivo .zip, acceder a la carpeta "One Piece Adventure" y hacer doble click sobre archivo "OnePieceGame.exe".
 
 ## Notas:
 

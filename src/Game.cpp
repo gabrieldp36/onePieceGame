@@ -679,8 +679,10 @@ void Game::eventosGame() {
                     this->sonido.pausarMusicaFondo();
                 }
                 if( sf::Keyboard::isKeyPressed(sf::Keyboard::J) ) {
-                    this->estadoJuego = EJECUTANDO;
-                    this->sonido.reanudarMusicaFondo();
+                    if( this->estadoJuego == PAUSADO) {
+                        this->estadoJuego = EJECUTANDO;
+                        this->sonido.reanudarMusicaFondo();
+                    }
                 }
             }
         }
