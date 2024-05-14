@@ -1,4 +1,4 @@
-![caratula](https://github.com/gabrieldp36/onePieceGame/assets/88417383/cd44e1e1-a6a6-4691-bd25-025e9152ac2c)
+![portada](https://github.com/gabrieldp36/onePieceGame/assets/88417383/e64f70f6-3d35-4fa0-9cca-1949e2605cb7)
 
 # One Piece Game.
 
